@@ -3,9 +3,7 @@
 
 
 	// connect to database
-    // $conn = mysqli_connect("localhost:3306", "root", "root", "blog_php");
-
-    $conn = mysqli_connect("remotemysql.com", "2SVX3vXyzy", "QR8WO3PH9h", "2SVX3vXyzy");
+    $conn = mysqli_connect("localhost:3307", "root", "root", "blog_php");
 
 	if (!$conn) {
 		die("Error connecting to database: " . mysqli_connect_error());
